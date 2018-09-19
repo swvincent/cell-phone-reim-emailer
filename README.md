@@ -20,9 +20,19 @@ I had trouble installing fpdf2 on one of my computers. Installing libjpeg-dev us
 
 Install the prerequisite libraries. In cellreim.py, change the server address, from email address and to email address to appropriate values.
 
+I realize having that information in the source code isn't good practice or ideal, but as mentioned, this was "quick and dirty".
+
+You may also want to change the logo.png image to something more appropriate.
+
 ## Deployment
 
-Use the cellreim.sh script to schedule the program using cron.
+Use the cellreim.sh script to schedule the program using cron. For example, my crontab entry looks like this:
+
+'''
+45 7 1 * * /home/pi/CellReim/cellreim.sh
+'''
+
+This results in the program running on the first day of every month at 7:45am.
 
 ## License
 
