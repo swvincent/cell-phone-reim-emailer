@@ -12,33 +12,17 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-This program requires the following libraries from PyPi: [retrying](https://pypi.org/project/retrying/) and [PyPDF2](https://pypi.org/project/PyPDF2/)
+This program requires Python 3 and the following libraries from PyPi: [retrying](https://pypi.org/project/retrying/) and [fpdf2](https://pypi.org/project/fpdf2/)
 
-```
-Give examples
-```
+I had trouble installing fpdf2 on one of my computers. Installing libjpeg-dev using apt install and [pillow](https://pypi.org/project/Pillow/) from PyPi first allowed it to install properly.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
+Install the prerequisite libraries. In cellreim.py, change the server address, from email address and to email address to appropriate values.
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+Use the cellreim.sh script to schedule the program using cron.
 
 ## License
 
