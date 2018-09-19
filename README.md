@@ -42,6 +42,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* [This example](https://stackoverflow.com/questions/28821487/multipart-email-pdf-attachment-blank/28825053#28825053) by SO user mhawke got me on the right track with building the email message
