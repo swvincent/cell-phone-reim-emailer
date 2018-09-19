@@ -28,9 +28,9 @@ You may also want to change the logo.png image to something more appropriate.
 
 Use the cellreim.sh script to schedule the program using cron. For example, my crontab entry looks like this:
 
-'''
+```
 45 7 1 * * /home/pi/CellReim/cellreim.sh
-'''
+```
 
 This results in the program running on the first day of every month at 7:45am.
 
